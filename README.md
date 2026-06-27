@@ -1,4 +1,4 @@
-# Lalitha Kolam Agentic AI
+# Agentic AI
 
 A simple project demonstrating an agentic AI approach to generate and explore Lalitha Kolam skill. This repository contains notes and examples for building intelligent workflows that combine creative patterns with AI planning.
 
