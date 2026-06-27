@@ -4,6 +4,7 @@
 
 This document summarizes key notes about using UV for Python development. It walks through setting up a new environment with critical setup considerations for maintaining consistency and productivity.
 
+
 ### Key Considerations – Before Starting
 * **Virtual Environment Setup:** Crucial! Activate a virtual environment before beginning your Python project to ensure isolated working space -  ensure proper permissions (Windows PowerShell/Git Bash environments).
 * **UV Project Initialization:** Run `uv init my-first-project`   to create an isolated Python runtime environment. Follow subsequent instructions for dependency management using `uv add`.
