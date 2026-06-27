@@ -1,4 +1,3 @@
-```markdown
 # UV & Python – Notes from Presentation - 06/26/2026
 
 ##  Overview
