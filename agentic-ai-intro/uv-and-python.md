@@ -1,8 +1,5 @@
 ```markdown
-# UV & Python – Notes from Presentation
-
-**Date:** 06/26/2026, Session: 7:30PM - 10:30PMSPT (Approximately)
-
+# UV & Python – Notes from Presentation - 06/26/2026
 
 ##  Overview
 
@@ -48,8 +45,6 @@ This document summarizes key notes about using UV for Python development. It wal
 ### 3. Installing Packages via `uv add`
 * **Basic Package Installation:** Use  `uv add numpy` to install essential packages; the package might need updates before using, so check for potential compatibility issues by updating dependencies within the package and ensuring their requirements meet those of your project.
 
-
-
 ---
 
 ## Python Fundamentals – Core Concepts
@@ -65,9 +60,6 @@ This document summarizes key notes about using UV for Python development. It wal
 Introduced API –  Provides programmatic interaction with external services such as real-time currency exchange rate data – useful for automating certain functions or integrations.
 
 *   [https://frankfurter.dev/](https://frankfurter.dev/) -  Source example, possibly a key to understanding some advanced features.
-
-
-
 
 **Learning Summary:**
 * **UV Use (Session: 06/26/2026, 7:30PM - 10:30PMSPT)** - UV is considered a fast replacement for `pip`, `venv`. Focused on creating isolated Python environments and utilizing dependency management to streamline project setup. Emphasis placed on the quick initial set-up during creation with `uv init`.
