@@ -30,7 +30,8 @@ This document summarizes key notes about using UV for Python development. It wal
 
     * **Git Bash (Windows or macOS):**
           ```bash
-             source .venv/bin/activate  # or .venv\Scripts\Python.exe within a terminal environment.
+             **macOS** source .venv/bin/activate  # or 
+             **Windows** source .venv\Scripts\Python.exe 
           ```
 
 
