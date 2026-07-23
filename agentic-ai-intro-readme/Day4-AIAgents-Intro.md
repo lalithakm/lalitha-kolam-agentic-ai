@@ -1,4 +1,4 @@
-# Learning Summary & Key Takeaways for Day 4 - July 4rd 2026(7:30pm to 10:30pm PST) 
+# Learning Summary & Key Takeaways for Day 4 - July 4th 2026(PST) 
 
 - Explored Pydantic built-in validators and their role in data validation.
 - Learned key AI concepts: LLMs, Tokens, Embeddings (Vectors), Context Windows, and Model Parameters.

@@ -1,3 +1,5 @@
+# Learning Summary & Key Takeaways for Day 5 - July 10th 2026(PST) 
+
 ## 🚀 Practical 1: AI Model vs Chatbot vs Agent
 - AI Model is a one-shot prediction engine with no memory or context.
 - Chatbot wraps the AI model and maintains conversation history (memory).

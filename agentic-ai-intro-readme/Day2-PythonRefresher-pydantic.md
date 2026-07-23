@@ -1,9 +1,10 @@
-# Class 2 Feed – June 27, 2026
+# Learning Summary & Key Takeaways for Day 2 - June 27th 2026 (PST)
 
-## Environment Setup
+
+## 🚀 Environment Setup
 Windows refresher for Python setup
 
-## Python Refresher
+## 🚀 Python Refresher
 **Video Playlist**:
 https://youtube.com/watch?v=zFtseTB05AM&list=PLI2v4rh7YVhdzMPIrK0az-tfd0wSDbjhp&themeRefresh=1
 **Class Repository**:
@@ -12,7 +13,7 @@ https://github.com/mayank953/Live-Class-2026/tree/main/class2v2
 uv run <filename.py>
 
 
-## Topics Covered
+## 🚀 Topics Covered
 **Python Fundamentals**
 Variables
 Data Types
@@ -78,15 +79,16 @@ Fake API calls
 ChatGPT API calls
 Introduced the concept of Chat Completions and how applications interact with language models programmatically.
 
-## **Pydantic**
+## 🚀 **Pydantic**
 Python is dynamically typed, meaning values of different types can often be passed without immediate errors.
 Example:
 
-
+```
 from pydantic import BaseModel
 class User(BaseModel):
     name: str
     age: int
+```
 
 ** Why Pydantic?**
 Enforces type validation
@@ -95,14 +97,14 @@ Makes code safer and more reliable
 Validates incoming data
 Essential when building APIs (FastAPI and other backend frameworks)
 
-## Key Takeaways
+## 🚀 Key Takeaways
 ✅ Makes code more error-safe
 ✅ Enforces data validation
 ✅ Reduces bugs caused by invalid input
 ✅ Will be heavily used when creating API servers in future classes
 
 
-## Summary
+## 🚀 Summary
 Today's session covered:
 Windows environment setup
 Python fundamentals

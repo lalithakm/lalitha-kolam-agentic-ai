@@ -26,12 +26,13 @@ An AI model provides intelligence, while the harness equips it with capabilities
 
 ## 🚀  Why LangChain?
 LangChain provides a unified interface to work with multiple AI models, making it easy to switch between providers like:
-OpenAI
-Claude
-Groq
-Gemini
-Others
-Agentic AI
+- OpenAI
+- Claude
+- Groq
+- Gemini
+- Others
+
+## 🚀 Agentic AI
 AI models like GPT, Claude, and Gemini are excellent reasoning engines but cannot perform real-world tasks independently.
 
 An AI Agent extends a model with:

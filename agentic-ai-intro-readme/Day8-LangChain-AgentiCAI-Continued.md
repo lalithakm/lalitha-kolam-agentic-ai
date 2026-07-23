@@ -21,17 +21,27 @@ LangChain structures conversations using four message types:
 ### Invoking Models in LangChain
 Three primary ways to interact with language models:
 - Invoke
-Standard synchronous request.
-Accepts a single message or conversation history.
-Returns one complete response.
+    - Standard synchronous request.
+    - Accepts a single message or conversation history.
+    - Returns one complete response.
+    ``` response = model.invoke(“< message + context history>”)```
+
 - Stream
-Streams responses incrementally as they are generated.
-Outputs AIMessageChunk objects.
-Ideal for long responses and improved user experience.
+    - Streams responses incrementally as they are generated.
+    - Outputs AIMessageChunk objects.
+    - Ideal for long responses and improved user experience.
+    ```response = model.stream(“< message + context history>”)```
+
 - Batch
-Processes multiple independent requests simultaneously.
-Improves performance and reduces latency.
-Individual responses can be retrieved using batch_as_completed().
+    - Processes multiple independent requests simultaneously.
+    - Improves performance and reduces latency.
+
+    ``` response = model.stream([“< message 1…>”,
+         <message2…>,
+         <message3…>])
+    ```
+    - Individual responses can be retrieved using batch_as_completed().
+    ```for response model.batch_as_completed:```
 
 ### Tools and Model Interaction
 The execution flow when using tools:

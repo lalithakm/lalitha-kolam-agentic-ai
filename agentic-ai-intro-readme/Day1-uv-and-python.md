@@ -1,6 +1,6 @@
-# UV & Python – Notes from Presentation - 06/26/2026
+# Learning Summary & Key Takeaways for Day 1 - June 26th 2026 (PST): UV & Python 
 
-##  Overview
+## 🚀  Overview
 
 This document summarizes key notes about using UV for Python development. It walks through setting up a new environment with critical setup considerations for maintaining consistency and productivity.
 
@@ -9,13 +9,13 @@ This document summarizes key notes about using UV for Python development. It wal
 * **Virtual Environment Setup:** This is a Crucial Step! Activate a virtual environment before beginning your Python project to ensure isolated working space. (Windows PowerShell/Git Bash environments).
 * **UV Project Initialization:** Run `uv init my-first-project`   to create an isolated Python runtime environment. Follow subsequent instructions for dependency management using `uv add`.
 
-## Relevant Resources
+## 🚀  Relevant Resources
 
 * https://docs.astral.sh/uv/getting-started/installation/#installation-methods uv venv --python 3.12 
 
 ---
 
-## Project Setup – using `uv init`
+## 🚀  Project Setup – using `uv init`
 
 ### 1. Creating a Virtual Environment
    * Use `uv venv --python 3.12` to create a virtual environment. This isolate your Python development from other existing projects and ensure reproducible results.
@@ -39,14 +39,14 @@ This document summarizes key notes about using UV for Python development. It wal
 *   **Navigation:**  Navigate into the newly created folder and establish the initial project structure following UV's recommendations; use standard Python practices such as creating a main application package with clear function names.
 
 
-## Package Management – Dependencies
+## 🚀  Package Management – Dependencies
 
 ### 3. Installing Packages via `uv add`
 * **Basic Package Installation:** Use  `uv add numpy` to install essential packages; the package might need updates before using, so check for potential compatibility issues by updating dependencies within the package and ensuring their requirements meet those of your project.
 
 ---
 
-## Python Fundamentals – Core Concepts
+## 🚀  Python Fundamentals – Core Concepts
 
 ### 4. Key Topics Covered:
    * Variables: Store data values (strings or numbers). Represented with quotes  ('strings' & 'integers').
