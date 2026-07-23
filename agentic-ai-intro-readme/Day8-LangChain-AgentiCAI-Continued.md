@@ -36,7 +36,8 @@ Three primary ways to interact with language models:
     - Processes multiple independent requests simultaneously.
     - Improves performance and reduces latency.
 
-    ``` response = model.stream([“< message 1…>”,
+    ```
+    response = model.stream([“< message 1…>”,
          <message2…>,
          <message3…>])
     ```
